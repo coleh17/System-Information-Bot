@@ -28,6 +28,11 @@ async function run() {
 
         var string = list.join('');
 
+        // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
+        // CHECK OUT https://www.npmjs.com/package/systeminformation TO VIEW ALL SYSTEM STATISTICS AVAILABLE FOR USE // // // //
+        // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
+
+
         // STATUS CHECK
 
         var str = [];
@@ -70,6 +75,10 @@ async function run() {
             }, (err, res, body) => {
                 if (err) console.error(err);
             });
+
+            // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
+            // CHECK OUT https://www.npmjs.com/package/ps-node TO VIEW ALL OPTIONS FOR PROCESS LOOKUPS // // // // // // // // // //
+            // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
 
         }, 4000)
 
